@@ -1,0 +1,111 @@
+.mono {
+    font-family: 'Major Mono Display', monospace;
+}
+body, html {
+	margin: 0;
+	padding: 0;
+}
+header h1 {
+	font-weight:normal;
+	font-size:6rem;
+	text-align: center;
+	margin:10px;
+	padding: 0px;
+}
+
+footer, .title {
+	font-family: 'Bad Script', cursive;
+}
+
+nav {
+	background-color: #000;
+	text-align: center;
+	padding:15px;
+	margin-bottom:0px;
+}
+nav a {
+	color:#fff;
+	text-decoration:none;
+	padding-left:15px;
+	padding-right:15px;
+	margin: 0;
+}
+nav a:hover, nav a:active{
+	font-weight: bold;
+}
+
+#midlink {
+	border-left: 1px solid;
+	border-right: 1px solid;
+}
+
+h1 span {
+	background-color: #000;
+	color:#fff;
+	padding: 0px;
+	margin: 0px;
+}
+.music ul a, .music ul li, .music ul a img {
+	width: 400px;
+	padding: 0;
+	margin: 0;
+}
+.music ul {
+	list-style:none;
+	padding: 0;
+}
+.albums .last, .singles .last, .lives .last {
+	margin: 10px;
+}
+.albums, .singles, .lives {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.title {
+	margin:0;
+	text-align: center;
+	font-size:1.4rem;
+}
+.cat_title {
+	margin:0;
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+img {
+	border: 1px solid;
+	border-color: #bbb;
+}
+footer {
+	color:#fff;
+	background-color: #000;
+	text-align: center;
+	padding: 5px;
+	font-size: 1.4rem;
+}
+footer>img {
+	width: 10px;
+}
+footer a {
+	text-decoration: none;
+	color:#fff;
+	border: 1px solid #FFF;
+	padding: 5px;
+	margin: 7px;
+}
+footer a:hover, footer a:active {
+	color: #000;
+	background-color: #fff;
+}
+@media(max-width:767px){
+		header h1 {
+			font-size: 2rem;
+		}
+		nav {
+			padding: 20px;
+		}
+		nav a {
+			font-size: 1.2rem;
+		}
+}
