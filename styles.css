@@ -108,4 +108,7 @@ footer a:hover, footer a:active {
 		nav a {
 			font-size: 1.2rem;
 		}
+		.music ul a, .music ul li, .music ul a img {
+			width: 380px;
+		}
 }
