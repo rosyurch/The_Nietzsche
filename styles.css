@@ -22,6 +22,7 @@ nav {
 	text-align: center;
 	padding:15px;
 	margin-bottom:0px;
+	border-bottom: 1px solid #fff;
 }
 nav a {
 	color:#fff;
@@ -77,12 +78,39 @@ img {
 	border: 1px solid;
 	border-color: #bbb;
 }
+
+div img:hover {
+	box-shadow: 0 0 3px 3px #777;
+}
+/*tour page*/
+.filler {
+	color: #fff;
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+}
+/*video page*/
+.container {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: row wrap;
+	background-color: #000;
+}
+.video {
+	margin: 25px;
+}
+
 footer {
 	color:#fff;
 	background-color: #000;
 	text-align: center;
 	padding: 5px;
 	font-size: 1.4rem;
+	border-top: 1px solid #fff;
 }
 footer>img {
 	width: 10px;
